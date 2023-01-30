@@ -1,0 +1,54 @@
+
+
+
+
+footer {
+    font-family: 'Nunito', sans-serif;
+    background: rgb(43,142,0);
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+
+
+.text1 {
+    width: auto;
+    height: 109px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    float: right;
+    padding: 30px 0;
+
+}
+
+footer a {
+    color: white;
+}
+
+footer ul a {
+    color: white;
+    padding: 5px 30px;
+}
+
+footer ul a:hover {
+    color: #dda15e;
+    transition: .4s;
+}
+
+footer ul a:hover,
+a:link,
+a:active,
+a:visited {
+    text-decoration: none;
+}
+.logoFooter img{
+    width: 100px;
+    height: 100%;
+}

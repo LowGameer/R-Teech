@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+.logo{
+    width: 100px;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+button{
+    background-color: white;
+    height: 31px;
+    padding: 0;
+    margin-left: 5px;
+    border: none;
+}
+ .carrinho img{
+    width: 30px;
+    height: 25px;
+    margin-right: 2px;
+}
+input{
+    width: auto;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.textBox{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.cadastro{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cadastro img, .textBox img{
+    width: 32px;
+    height: 28px;
+}

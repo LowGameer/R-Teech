@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.boxTitle{
+    height: 10vh;
+    width: auto;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(43, 142, 0);
+}
